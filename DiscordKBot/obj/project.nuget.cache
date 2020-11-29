@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PY0BUaM7SoFWhjyeMa5T1LYvWn5fhDjCNx7xU1cyB19Gl/K05wETXBL1Kzwn11VbeQ4RFFDIiemNFj7cFwT5Jw==",
+  "dgSpecHash": "KG7+MM5xqiTc2Sj6HlICismBjnd2oDV0mWKqLgjYbryxt/+6DgBqV2f0sWCmNxAb7Sdnj/HxcWWZWH6nnuTD5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj",
+  "projectFilePath": "D:\\Documents\\Code\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\home\\.nuget\\packages\\concurrenthashset\\1.1.0\\concurrenthashset.1.1.0.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\dsharpplus\\4.0.0-nightly-00760\\dsharpplus.4.0.0-nightly-00760.nupkg.sha512",

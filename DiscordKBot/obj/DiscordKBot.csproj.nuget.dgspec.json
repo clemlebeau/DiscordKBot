@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj": {}
+    "D:\\Documents\\Code\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj": {
+    "D:\\Documents\\Code\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj",
+        "projectUniqueName": "D:\\Documents\\Code\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj",
         "projectName": "DiscordKBot",
-        "projectPath": "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj",
+        "projectPath": "D:\\Documents\\Code\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj",
         "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\obj\\",
+        "outputPath": "D:\\Documents\\Code\\source\\repos\\DiscordKBot\\DiscordKBot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
