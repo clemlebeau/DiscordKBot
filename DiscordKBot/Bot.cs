@@ -11,6 +11,7 @@ using Microsoft.Extensions.Logging;
 using DiscordKBot.Commands;
 using DSharpPlus.Interactivity;
 using DSharpPlus.Interactivity.Extensions;
+using DSharpPlus.Entities;
 
 namespace DiscordKBot
 {
@@ -66,7 +67,8 @@ namespace DiscordKBot
 
             Commands = Client.UseCommandsNext(commandsConfig);
 
-            Commands.RegisterCommands<FunCommands>();
+            Commands.RegisterCommands<KBotCommands>();
+            //Commands.RegisterCommands<FunCommands>();
 
             await Client.ConnectAsync();
 
@@ -83,14 +85,32 @@ namespace DiscordKBot
             if (!e.Author.IsBot)
             {
                 string message = e.Message.Content.ToString();
+                
+                #region K chart
                 List<string> messageEmotions = GetEmotions(message);
                 if (messageEmotions.Count > 0)
                 {
                     string messageToSend = CreateMessage(messageEmotions, e.Message);
                     await e.Message.Channel.SendMessageAsync(messageToSend).ConfigureAwait(false);
                 }
+                #endregion
+
+                foreach (string didiask in didiasks)
+                {
+                    if (message.ToLower().Contains(didiask))
+                    {
+                        for (int i = 0; i < 5; i++)
+                        {
+                            await e.Message.Channel.SendMessageAsync($"{e.Author.Mention} STFU!").ConfigureAwait(false);
+                            ulong userId = e.Message.Author.Id;
+                            DiscordMember member = await e.Guild.GetMemberAsync(userId).ConfigureAwait(false);
+                        }
+                    }
+                }
             }
         }
+
+        private string[] didiasks = {"did i ask", "did anyone ask", "didiask", "didanyoneask", "did iask", "didi ask", "didanyone ask", "did anyoneask" };
 
         private string[] ks = { "okay", "oké", "okey", "oke", "ok", "kay", "_k", "_K", "_K.", "_O.K.", "okayyyy", "kk", "kkk", "mk" };
         private string[] emotions = { "Happy", "Gay", "Bored", "Very bored", "Bland", "Annoyed", "Mad", "Very mad", "Extremely mad", "A boomer", "Horny asf", "Hyperactive", "A white supremacist", "Bored + mad" };

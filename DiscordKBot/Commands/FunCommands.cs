@@ -18,7 +18,7 @@ namespace DiscordKBot.Commands
         {
             await ctx.Channel.SendMessageAsync("Pong!").ConfigureAwait(false);
         }
-        
+
         [Command("add")]
         public async Task Add(CommandContext ctx, int numberOne, int numberTwo)
         {
