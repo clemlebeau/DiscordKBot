@@ -36,7 +36,7 @@ namespace DiscordKBot.Commands
         {
             string messageContent = "**T**rue name revealed in a skribbl.io game\n**a**h shit I don't have friends anymore\n**t**\n**e**\n**r**\n**t**\n**o**\n**t**";
             string imageURL = @"https://keepingitrelle.com/wp-content/uploads/2020/01/Tatertot-Casserole-3-720x720.jpg";
-            await ctx.Channel.SendMessageAsync(messageContent, false, new DiscordEmbedBuilder { Title = "Tatertot", Description = "Tatertot", ImageUrl = imageURL }.Build());
+            await ctx.Channel.SendMessageAsync(messageContent, false, new DiscordEmbedBuilder { ImageUrl = imageURL }.Build());
         }
     }
 }
