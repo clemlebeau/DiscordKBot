@@ -30,5 +30,11 @@ namespace DiscordKBot.Commands
             DiscordDmChannel dm = await ctx.Member.CreateDmChannelAsync().ConfigureAwait(false);
             await dm.SendMessageAsync("In case you need to be told twice, stfu.").ConfigureAwait(false);
         }
+
+        [Command("tatertot")]
+        public async Task Tatertot(CommandContext ctx)
+        {
+            await ctx.Channel.SendMessageAsync("**T**rue name revealed in a skribbl.io game\n**a**h shit I don't have friends anymore\n**t**\n**e**\n**r**\n**t**\n**o**\n**t**");
+        }
     }
 }
