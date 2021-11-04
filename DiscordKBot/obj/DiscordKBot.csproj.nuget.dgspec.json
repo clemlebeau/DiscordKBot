@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj": {}
+    "C:\\Users\\cleme\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj": {
+    "C:\\Users\\cleme\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj",
+        "projectUniqueName": "C:\\Users\\cleme\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj",
         "projectName": "DiscordKBot",
-        "projectPath": "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj",
-        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\home\\source\\repos\\DiscordKBot\\DiscordKBot\\obj\\",
+        "projectPath": "C:\\Users\\cleme\\source\\repos\\DiscordKBot\\DiscordKBot\\DiscordKBot.csproj",
+        "packagesPath": "C:\\Users\\cleme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cleme\\source\\repos\\DiscordKBot\\DiscordKBot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cleme\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.emzi0767.com/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -67,12 +65,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[3.1.8, 3.1.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.8, 3.1.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "ubuntu.18.04-x64": {
+          "#import": []
         }
       }
     }
